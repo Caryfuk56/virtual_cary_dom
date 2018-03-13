@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Virtual DOM</title>
+        <meta charset="utf-8">
+        <script src="virtualDom.js"></script>
+    </head>
+    <body>
+        <h1>Virtual DOM test</h1>
+        <script>
+           vd.add(["body", "div"], {id: "wrapper"});
+            vd.add (["wrapper","div"], {id: "hovno", className: "s cibulí", style: {
+                width: "400px", height: "500px", backgroundColor: "blue"
+            }});
+                vd.add("p", {content: "Docela pěkně to funguje.", style: {color: "red"}});
+        </script>
+    </body>
+</html>
